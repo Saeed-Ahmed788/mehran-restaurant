@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehran Restaurant</title>
+
+    <!--LINKING EXTERNAL CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--POPPINS FONT LINKING-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--ICON CDN LINKING-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!--DANCING SCRIPT FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HERO START -->
+    <header class="hero">
+      <div class="hero-container">
+        <div class="logo">
+          <a href="#logo">Mehran Restaurant</a>
+        </div>
+        <nav>
+          <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ourmenu">Our Menu</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#reservedtable">Reserved Table</a></li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <div class="icons">
+            <a href="#person"><i class="fa-solid fa-user"></i></a>
+            <a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+          <div class="nav-btn">
+            <a href="#btn-order-online" class="btn-order-online"
+              >Order Online</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO CONTENT START -->
+      <div class="hero-content">
+        <h1 class="hero-heading">delicious food made with love</h1>
+        <p class="hero-text">
+          from spicy dishes to sweet desserts, we serve unforgetabble flavors
+          that bring happiness to every table
+        </p>
+      </div>
+      <!-- HERO CONTENT END -->
+    </header>
+
+    <main>
+      <!-- OFFER CARD COTAINER START -->
+      <div class="offer-container">
+        <div class="offer-card">
+          <div class="offer-image">
+            <img src="./Images/offer-card burger.jpg" alt="Burger" />
+          </div>
+          <div class="offer-content">
+            <h3 class="offer-heading">Tasty Sunday</h3>
+            <p class="offer-text">20% Off on Burger</p>
+          </div>
+        </div>
+
+        <div class="offer-card">
+          <div class="offer-image">
+            <img src="./Images/offer-card cake.jpg" alt="Cake" />
+          </div>
+          <div class="offer-content">
+            <h3 class="offer-heading">Tasty Sunday</h3>
+            <p class="offer-text">15% Off on Cake</p>
+          </div>
+        </div>
+      </div>
+      <!-- OFFER CARD CONTAINER END -->
+
+      <!-- NAV BUTTON START -->
+      <h1 class="menu" id="ourmenu">our menu</h1>
+      <div class="nav-menu">
+        <a href="#all">All</a>
+        <a href="#spicy">Spicy</a>
+        <a href="#desserts">Desserts</a>
+        <a href="#drinks">Drinks</a>
+      </div>
+      <!-- NAV BUTTON END -->
+
+      <!-- CARD CONTAINER START -->
+      <div class="card-container">
+        <!-- card 1 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Burger.png" alt="Burger" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Burger</h2>
+            <p class="card-text">
+              Freshly perpared burger made with premium ingrdients.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">5$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Chicken-Biryani.png" alt="Chicken-Biryani" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Chicken-Biryani</h2>
+            <p class="card-text">
+              Flavorful chicken biryani made with rich spices and tender
+              chicken.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">4$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Chicken-Broast.png" alt="Chicken-Broast" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Chicken-Broast</h2>
+            <p class="card-text">
+              Golden fried broast with perfect spices and crunch.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">6$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Fries.png" alt="Fries" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Fries</h2>
+            <p class="card-text">Hot and crunchy potato fries served fresh.</p>
+          </div>
+          <div class="price">
+            <p class="card-price">2$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Cold-Coffee.png" alt="Cold-Coffee" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Cold-Coffee</h2>
+            <p class="card-text">
+              Chilled coffee blended with creamy milk and ice.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">2$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Ice-Cream.png" alt="Ice Cream" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Ice-Cream</h2>
+            <p class="card-text">
+              Smooth and sweet ice cream to satisfy your cravings.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">3$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 7 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Mango-Shake.png" alt="Mango-Shake" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Mango-Shake</h2>
+            <p class="card-text">
+              Thick and refreshing mango shake made with fresh mangoes.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">2$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 8 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Mint-Margarita.png" alt="Mint-Margarita" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Mint-Margarita</h2>
+            <p class="card-text">
+              Cool and zesty mint margarita to refresh your mood.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">3$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+
+        <!-- card 9 -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./Images/Pasta.png" alt="Pasta" />
+          </div>
+          <div class="card-content">
+            <h2 class="card-heading">Pasta</h2>
+            <p class="card-text">
+              Delicious pasta with smooth sauce and perfect flavor.
+            </p>
+          </div>
+          <div class="price">
+            <p class="card-price">4$</p>
+            <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
+          </div>
+        </div>
+      </div>
+      <!-- Button see more -->
+      <div class="btn-see-more">
+        <a href="#btn-see-more" class="see-more">See more</a>
+      </div>
+
+      <!-- ABOUT US CONTAINER START -->
+      <div class="about-container" id="aboutus">
+        <div class="about-image">
+          <img src="./Images/About-Image one.jpg" alt="About-Image" />
+        </div>
+        <div class="about-content">
+          <h1 class="about-heading">About Us</h1>
+          <p class="about-text">
+            Welcome to Mehran Restaurant, where great food and warm hospitality
+            come together to create a memorable dining experience. We are
+            passionate about serving fresh, delicious, and high-quality meals
+            prepared with carefully selected ingredients. Our menu offers a
+            variety of traditional and modern dishes to satisfy every taste.
+            Whether you are visiting with family, friends, or colleagues, our
+            comfortable atmosphere and excellent service ensure that every visit
+            is special. At Mehran Restaurant, customer satisfaction is our top
+            priority, and we strive to make every meal enjoyable and
+            unforgettable.
+          </p>
+        </div>
+      </div>
+      <!-- ABOUT US CONTAINER END -->
+
+      <!-- RESERVED CONTAINER START -->
+      <div class="reserved-container" id="reservedtable">
+        <!-- 1st child -->
+        <div class="form">
+          <h1 class="reserved-heading" id="reservedtable">Reserve a Table</h1>
+          <input type="text" placeholder="Enter Your Name" name="username" />
+          <input type="tel" placeholder="Enter Your Number" name="phone" />
+          <input type="email" placeholder="Enter Your Email" name="email" />
+          <input type="time" name="time" />
+          <input type="date" name="date" />
+          <select name="seat" id="seat">
+            <option value="">How many seats</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="more than 5">More than 5</option>
+          </select>
+          <textarea
+            name="feedback"
+            id="feedback"
+            placeholder="Special Request"
+          ></textarea>
+
+          <div class="btn-book-now">
+            <a href="#btn-book-now" class="book-now">Book Now</a>
+          </div>
+        </div>
+
+        <!-- 2nd child -->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.7103805919!2d66.49592152406926!3d25.19298356804784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1782551967608!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="footer-container">
+        <!-- 1st child -->
+        <div class="footer-address">
+          <h3 class="address-heading">Get in touch</h3>
+          <p><i class="fa-solid fa-location-dot"></i> 123 Quaid Abad Karachi</p>
+          <p><i class="fa-solid fa-phone"></i> +92300-1234567</p>
+          <p><i class="fa-solid fa-envelope"></i> m.restaurant@gmail.com</p>
+        </div>
+
+        <!-- 2nd child -->
+        <div class="footer-about">
+          <h1 class="f-about-heading">mehran restaurant</h1>
+          <p>
+            Welcome to Mehran Restaurant, where great food and warm hospitality
+            come together to create a memorable dining experience. We are
+            passionate about serving fresh, delicious, and high-quality meals
+            prepared with carefully selected ingredients.
+          </p>
+
+          <!-- Social media -->
+          <div class="social-media">
+            <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- 3rd child -->
+        <div class="footer-hour">
+          <h3 class="hour-heading">Opening Hours</h3>
+          <p>Every Day</p>
+          <p>10:00 AM - 11:00 PM</p>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="copyright-container">
+        <hr />
+        <p>&copy; All rights reserved by mehran restaurant</p>
+      </div>
+    </footer>
+  </body>
+</html>

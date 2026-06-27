@@ -1,0 +1,629 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: aliceblue;
+}
+
+
+/* ######################### HERO SECTION ###################### */
+.hero{
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* ######################### HERO CONTAINER START ###################### */
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo a{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: "Dancing Script", cursive;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+.navbar li a:hover{
+    color: #f08040;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icons a{
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease-in;
+}
+
+.icons a:hover{
+    color: #f08040;
+}
+
+.btn-order-online{
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: #f08040;
+    color: white;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.btn-order-online:hover{
+    background-color: orange;
+    color: white;
+}
+/* ######################### HERO CONTAINER END ###################### */
+
+
+/* ######################### HERO CONTENT START ###################### */
+.hero-content{
+    height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.hero-heading{
+    font-family: "Dancing Script", cursive;
+    text-transform: uppercase;
+}
+
+.hero-text{
+    text-transform: capitalize;
+}
+/* ######################### HERO CONTENT END ###################### */
+
+
+/* ######################### OFFER CONTAINER START ###################### */
+.offer-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.offer-card{
+    background-color: #222321;
+    color: white;
+    width: 100%;
+    max-width: 550px;
+    height: 200px;
+    border: 2px solid #f08040;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 15px;
+}
+
+.offer-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid orange;
+    overflow: hidden;
+}
+
+.offer-card:hover .offer-image img{
+    transform: scale(1.1);
+}
+
+.offer-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.offer-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-heading{
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 8px;
+}
+/* ######################### OFFER CONTAINER END ###################### */
+
+
+/* ######################### NAV MENU START ###################### */
+.menu{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.nav-menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    display: inline-block;
+    background-color: azure;
+    padding: 3px;
+    border-radius: 4px;
+    transition: 0.4s ease-in;
+}
+
+.nav-menu a:hover{
+    background-color: black;
+    color: white;
+}
+/* ######################### NAV MENU END ###################### */
+
+
+/* ######################### CARD CONTAINER START ###################### */
+.card-container{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 25px;
+}
+
+.card{
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+    background-color: #222321;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding: 15px 5px;
+}
+
+.card-heading{
+    font-family: "Dancing Script", cursive;
+    margin-top: 5px;
+}
+
+.card-text{
+    margin-bottom: 5px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    color: #f08040;
+    margin-top: auto;
+    padding: 7px 8px;
+}
+
+.card:hover .card-image img{
+    transform: scale(1.1);
+}
+
+.btn-see-more{
+    display: flex;
+    justify-content: center;
+}
+
+.see-more{
+    padding: 10px 18px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.btn-see-more a:hover{
+    background-color: orange;
+    color: white;
+}
+/* ######################### CARD CONTAINER END ###################### */
+
+
+/* ######################### ABOUT US START ###################### */
+.about-container{
+    min-height: 100vh;
+    background-color: #222321;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-image, .about-content{
+    flex: 1;
+}
+
+.about-image{
+    width: 100%;
+    height: 450px;
+    border: 3px solid white;
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-heading{
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 30px;
+}
+/* ######################### ABOUT US END ###################### */
+
+
+/* ######################### RESERVED CONTAINER START ###################### */
+.reserved-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.form, .map{
+    flex: 1;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form input, .form select, .form textarea{
+    padding: 10px;
+    width: 90%;
+}
+
+.reserved-heading{
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.book-now{
+    display: inline-block;
+    padding: 10px 18px;
+    color: white;
+    background-color: #f08040;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.book-now:hover{
+    background-color: orange;
+    color: white;
+}
+
+iframe{
+    width: 100%;
+    border-radius: 8px;
+}
+/* ######################### RESERVED CONTAINER END ###################### */
+
+
+/* ######################### FOOTER START ###################### */
+
+.footer-container{
+    min-height: 250px;
+    color: white;
+    background-color: #222321;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer-address, .footer-hour{
+    flex: 1;
+}
+
+.footer-about{
+    flex: 2;
+}
+
+.footer-about, .footer-address, .footer-hour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.address-heading, .f-about-heading, .hour-heading{
+    text-transform: uppercase;
+    text-align: center;
+    color: #f08040;
+    font-family: "Dancing Script", cursive;
+}
+
+.footer-about p{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.social-media{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    color: #222321;
+    transition: 0.4s ease;
+}
+
+.social-media a:Hover{
+    background-color: #f08040;
+    color: white;
+    transform: translateY(-4px);
+}
+
+
+.copyright-container {
+    background-color: #222321;
+    color: white;
+    text-align: center;
+}
+
+.copyright-container p{
+    font-size: 18px;
+    margin-top: 4px;
+    padding-bottom: 3px;
+    text-transform: capitalize;
+}
+/* ######################### FOOTER END ###################### */
+
+
+
+/* ################################################################## */
+/* ############## ALL MEDIA QUERIES FOR RESPONSIVE ######### */
+/* ################################################################## */
+
+
+/* ####################### FOR DESKTOP (1024 PX) START ############# */
+@media (max-width: 1024px){
+    .navbar li a{
+        font-size: 14px;
+    }
+}
+/* ####################### FOR DESKTOP (1024 PX) END ############# */
+
+@media (max-width: 850px){
+    .logo a{
+        font-size: 22px;
+    }
+}
+
+
+/* ####################### FOR DESKTOP (800 PX) START ############# */
+@media (max-width: 800px){
+    .logo a{
+        font-size: 22px;
+    }
+
+    .navbar li a{
+        font-size: 12px;
+    }
+
+    .btn-order-online{
+        padding: 8px 14px;
+    }
+
+    .hero-heading{
+        margin: 0px;
+    }
+
+    .hero-text{
+        padding: 15px;
+        line-height: 30px;
+    }
+}
+
+
+/* ####################### FOR TABLET (768 PX) START ############# */
+@media (max-width: 768px){
+    .hero-container{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+
+    .reserved-container{
+        flex-direction: column;
+    }
+
+    .map iframe{
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .actions{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+
+    .hero-content{
+        height: 40vh;
+    }
+
+    .icons{
+        gap: 15px;
+        margin: 5px;
+    }
+
+    .btn-order-online{
+        padding: 10px 14px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f-about-heading{
+        margin-top: 10px;
+    }
+
+    .social-media{
+        margin-bottom: 15px;
+    }
+}
+/* ####################### FOR TABLET (768 PX) END ############# */
+
+
+/* ####################### FOR SMALL DEVICE (480 PX) ############# */
+@media (max-width: 480px){
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li a{
+        font-size: 16px;
+    }
+
+    .btn-order-online{
+        padding: 8px 16px;
+    }
+
+    .hero-heading{
+        font-size: 26px;
+    }
+
+    .reserved-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map iframe{
+        height: 300px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
